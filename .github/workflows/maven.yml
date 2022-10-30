@@ -64,6 +64,6 @@ run: scancentral -url ${SC_CONTROLLER_URL} start $BUILD_OPTS -upload -applicatio
 env:
 SC_CONTROLLER_URL: ${{ secrets.SC_CONTROLLER_URL }}
 SSC_UPLOAD_TOKEN: ${{ secrets.SSC_UPLOAD_TOKEN }}
-APPLICATION: "Simple_app"
+APPLICATION: "Sample_app"
 VERSION: "Dev"
 BUILD_OPTS: "-bt mvn"
